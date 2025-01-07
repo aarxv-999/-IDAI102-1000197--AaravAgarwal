@@ -1,6 +1,8 @@
 # Made by: Aarav Agarwal, IBCP-XI
 ## Summative Assessment 2
 
+### Overview
+
 The task that I have decided to pick is Task 2: Analyzing Disney Hotstar's Trends. The purpose of this project is to analyze trends in the movie and TV show content (for example genres, running time, release years and more), understand the content strategies of this industry and identify insights inferred from the data. <br/>
 
 ### Requirements
@@ -18,13 +20,15 @@ To load the data, I used the command "pd.read_csv()" from the file hotstar.csv. 
 For the statistical analysis, I used the "groupby()", "agg()" (aggregation) functions to get key inferences such as average seasons, episodes, running time, genre counts, etc. To visualize the data, I used libraries like matplotlib and seaborn. Graphs like bar charts, line charts, density plot and stacked bar charts were created to identify different patterns in content releases, genre distribution and industrial shifts. <br/>
 
 ### Significant findings 
-Some genres dominate in terms of number of releases such as action, drama, comedy, revealing trends in the audience's preferences. <br/>
+1. The average movie runtime has increased gradually over the years, suggesting a trend towards longer experiences. However, in the recent years, there seems to be a bifurcation, some movies have become shorter to cater to digital and the on-the-go consumption, while others (for example franchise films) have become longer to justify cinematic experiences. 
 
-While TV shows seem to have more episodes and seasons, the trend for movies seem to fluctuate commonly. <br/>
+2. A huge rise in releases is observed from the early 2000s, also correlating with the growth of streaming platforms. Peak years for production indicate substantial growth in the industry, with great increases during the 2010s due to digital transformation and significant increase in media consumption. Recent years show a slight decline due to the COVID-19 pandemic impacting the production. 
 
-Movies altogether got an increase in their running time, from which we can infer a trend toward longer films, potentially for streaming services or immersive experiences. <br/>
+3. Genres like drama and comedy significantly dominate the market, but there is an increasing variety in genre combination, suggesting diversity in audience preferences.  
 
-There was also a palpable increase in TV shows and movies released in certain years, which could show potential shifts in the industry or global events which influenced media production (for example, streaming boom) <br/>
+4. Emotionally engaging or educational content is preferred by the audiences based on the viewer ratings for Drama and Documentary genres. 
+
+5. Movie runtimes typically clustered around 90-120 minutes, but in the recent years, they've seen an uptick in movies over 150 minutes, indicating a split between theatrical and digital first movies. 
 
 
 ![age_rating_comparison_tv_movies](https://github.com/user-attachments/assets/dfce6892-d4db-4751-94f0-5804576312f5)
