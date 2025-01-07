@@ -9,6 +9,8 @@ The following libraries are required for the project to run:
 2. seaborn
 3. pandas
 
+The dataset "hotstar.csv" is also added to the GitHub repository. 
+
 ### Data preprocessing 
 To load the data, I used the command "pd.read_csv()" from the file hotstar.csv. To make sure that the data was in the correct format for the numeric columns (i.e running_time, seasons, episodes), I converted them to the proper data types using "pd.to_numeric()" and errors='coerce' to handle invalid values. Any missing values were handled by filling them with zeroes using ".fillna(0)". <br/>
 
