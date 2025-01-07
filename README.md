@@ -3,6 +3,12 @@
 
 The task that I have decided to pick is Task 2: Analyzing Disney Hotstar's Trends. The purpose of this project is to analyze trends in the movie and TV show content (for example genres, running time, release years and more), understand the content strategies of this industry and identify insights inferred from the data. <br/>
 
+### Requirements
+The following libraries are required for the project to run:
+1. matplotlib
+2. seaborn
+3. pandas
+
 ### Data preprocessing 
 To load the data, I used the command "pd.read_csv()" from the file hotstar.csv. To make sure that the data was in the correct format for the numeric columns (i.e running_time, seasons, episodes), I converted them to the proper data types using "pd.to_numeric()" and errors='coerce' to handle invalid values. Any missing values were handled by filling them with zeroes using ".fillna(0)". <br/>
 
